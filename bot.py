@@ -11,7 +11,7 @@ CHANNEL_ID = 1403526849371574452
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
-@bot.command()
+@bot.event()
 async def on_ready():
     channel = bot.get_channel(CHANNEL_ID)
     print("-R- is ready!")
