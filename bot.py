@@ -16,4 +16,4 @@ async def test(ctx):
     print("-R- is running!")
     await ctx.send(f"-R- is running now!")
 
-bot.run()
+bot.run(TOKEN)
